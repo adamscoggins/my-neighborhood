@@ -99,11 +99,11 @@
                                             <segue destination="alM-1W-5C4" kind="show" identifier="AddPostVC" id="P5R-Lp-Tcj"/>
                                         </connections>
                                     </button>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bannerlogo" translatesAutoresizingMaskIntoConstraints="NO" id="ag6-ZN-e0v">
-                                        <rect key="frame" x="239" y="22" width="123" height="35"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="transparent_text_effect" translatesAutoresizingMaskIntoConstraints="NO" id="ag6-ZN-e0v">
+                                        <rect key="frame" x="203" y="17" width="195" height="40"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="35" id="3n4-9i-RyX"/>
-                                            <constraint firstAttribute="width" constant="123" id="ZTp-Be-MKP"/>
+                                            <constraint firstAttribute="height" constant="40" id="3n4-9i-RyX"/>
+                                            <constraint firstAttribute="width" constant="195" id="ZTp-Be-MKP"/>
                                         </constraints>
                                     </imageView>
                                 </subviews>
@@ -113,11 +113,15 @@
                                     <constraint firstAttribute="trailing" secondItem="l4i-ZM-WuH" secondAttribute="trailing" constant="8" id="Bvb-av-tLP"/>
                                     <constraint firstItem="ag6-ZN-e0v" firstAttribute="centerX" secondItem="8V6-zb-pzg" secondAttribute="centerX" id="DbI-8M-3WB"/>
                                     <constraint firstAttribute="height" constant="65" id="KZo-Rh-sMc"/>
-                                    <constraint firstAttribute="bottom" secondItem="ag6-ZN-e0v" secondAttribute="bottom" constant="8" id="Qyc-fa-oyh"/>
+                                    <constraint firstAttribute="bottom" secondItem="ag6-ZN-e0v" secondAttribute="bottom" constant="8" id="OWD-PB-Fvy"/>
+                                    <constraint firstAttribute="bottom" secondItem="ag6-ZN-e0v" secondAttribute="bottom" constant="20" symbolic="YES" id="Qyc-fa-oyh"/>
+                                    <constraint firstItem="ag6-ZN-e0v" firstAttribute="centerY" secondItem="8V6-zb-pzg" secondAttribute="centerY" id="YkS-px-utl"/>
                                     <constraint firstAttribute="bottom" secondItem="l4i-ZM-WuH" secondAttribute="bottom" constant="10" id="zIb-jV-fRO"/>
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">
+                                        <exclude reference="Qyc-fa-oyh"/>
+                                        <exclude reference="YkS-px-utl"/>
                                         <exclude reference="1ub-3W-eAX"/>
                                     </mask>
                                 </variation>
@@ -276,8 +280,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="bannerlogo" width="518" height="194"/>
         <image name="barrel-water-bridge" width="550" height="440"/>
         <image name="camera" width="100" height="77"/>
+        <image name="transparent_text_effect" width="844" height="163"/>
     </resources>
 </document>
